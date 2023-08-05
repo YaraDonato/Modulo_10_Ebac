@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-campo label{
+    font-weight: bold;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1dae9;
+    border-radius: 5rem;
+    padding: 5rem;
+    width: 30rem;
+    margin: auto;
+    top: 10rem;
+    position: relative;
+    box-shadow: 0 0 0 10px #e4c0dd44, 0 0 50px #db9ad0, 0 0 100px #dc4fc5;
+}
